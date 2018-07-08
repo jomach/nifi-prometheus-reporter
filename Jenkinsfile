@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Buikd') {
       steps {
-        sh 'mvn clean install'
+        sh 'env ; which maven ;mvn clean install'
       }
     }
   }
